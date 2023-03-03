@@ -1,7 +1,10 @@
 # CSCI 1310 Lab 3 Makefile
 
 # Standard C compiler
-ifeq ($(PROCESSOR_ARCHITECTURE),ARM64)
+PROCESSOR_ARCHITECTURE := $(shell arch)
+ifeq ($(PROCESSOR_ARCHITECTURE),arm64)
+	CC := x86_64-linux-gnu-gcc-9
+else ifeq ($(PROCESSOR_ARCHITECTURE),aarch64)
 	CC := x86_64-linux-gnu-gcc-9
 else
 	CC := gcc
@@ -21,7 +24,9 @@ all: buffer exploit
 # Compile the hackable buffer program
 buffer: buffer.c
 	$(CC) $(CFLAGS) $(STACKFLAGS) -o $@ $^
-ifeq ($(PROCESSOR_ARCHITECTURE),ARM64)
+ifeq ($(PROCESSOR_ARCHITECTURE),arm64)
+	@ x86_64-linux-gnu-objdump -d $@ > buffer_asm.txt
+else ifeq ($(PROCESSOR_ARCHITECTURE),aarch64)
 	@ x86_64-linux-gnu-objdump -d $@ > buffer_asm.txt
 else
 	@ objdump -d $@ > buffer_asm.txt
