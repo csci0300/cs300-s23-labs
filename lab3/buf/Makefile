@@ -14,7 +14,7 @@ endif
 CFLAGS := -O0 -g -std=c99 -Wall -Werror -Wno-deprecated-declarations # Flags for C compilation
 
 # Compilation flags that ensure that the stack is static and with no security measures
-STACKFLAGS := -Wno-implicit -fno-stack-protector -no-pie -fno-pic -z execstack -z norelro
+STACKFLAGS := -Wno-implicit -fno-stack-protector -no-pie -fno-pic -z execstack -z norelro -fcf-protection=none
 
 # rules that are listed as .PHONY do not produce an output file
 .PHONY: all do_hack clean
