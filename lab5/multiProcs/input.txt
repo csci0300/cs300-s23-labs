@@ -1,0 +1,11 @@
+hello
+books
+walk
+man
+lady
+tree
+goodbye
+raven
+peace
+animal
+run

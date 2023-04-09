@@ -1,0 +1,40 @@
+Enter search term: Found 16 instances of hello.
+hello not found in books/Alice's Adventures in Wonderland by Lewis Carroll.txt
+hello not found in books/Adventures of Huckleberry Finn by Mark Twain.txt
+hello not found in books/Emma by Jane Austen.txt
+hello not found in books/The Works of Edgar Allan Poe, The Raven Edition by Edgar Allan Poe.txt
+hello not found in books/Middlemarch by George Eliot.txt
+hello not found in books/Pride and Prejudice by Jane Austen.txt
+hello not found in books/The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson.txt
+hello not found in books/War and Peace by graf Leo Tolstoy.txt
+hello not found in books/A Tale of Two Cities by Charles Dickens.txt
+hello not found in books/Dracula by Bram Stoker.txt
+hello not found in books/The Adventures of Sherlock Holmes by Arthur Conan Doyle.txt
+hello not found in books/Little Women by Louisa May Alcott.txt
+hello found in books/Ulysses by James Joyce.txt at locations:
+Index 12180: your _omphalos_. Hello. Kinch here.
+Index 21059: the Ring_. Hello. Illustration. Fierce
+Index 25363: on straight. Hello. _Leah_ tonight.
+Index 28394: stood up. Hello. Were those
+Index 38342: by Mesias. Hello. It’s dyed.
+Index 44042: you fret. Hello, Jack. That’s
+Index 46588: Telegraph_ here... Hello?... Who’s there?...
+Index 50209: O’Connell street. HELLO THERE, CENTRAL!
+Index 51974: Our envelopes. Hello, Jones, where
+Index 62759: your soul. Hello, placard. Mirus
+Index 78506: —Mr Boylan! Hello! That gentleman
+Index 90187: waiting. Wait. Hello. Where off
+Index 104023: sight, Alf. Hello, Bloom, says
+Index 164074: wattles wagging.)_ Hello, seventyseven eightfour.
+Index 164077: seventyseven eightfour. Hello. _Freeman’s Urinal_
+Index 187253: to hear.)_ Hello, Bloom! Mrs
+
+hello not found in books/The Memoirs, Correspondence, And Miscellanies, From The Papers Of Thomas.txt
+hello not found in books/Frankenstein; Or, The Modern Prometheus by Mary Wollstonecraft Shelley.txt
+hello not found in books/Moby Dick; Or, The Whale by Herman Melville.txt
+hello not found in books/Ion by Plato.txt
+hello not found in books/A Christmas Carol in Prose; Being a Ghost Story of Christmas by Charles Dickens.txt
+hello not found in books/Zarah the Cruel by Joan Conquest.txt
+hello not found in books/The Adventures of Tom Sawyer by Mark Twain.txt
+
+Enter search term: 
