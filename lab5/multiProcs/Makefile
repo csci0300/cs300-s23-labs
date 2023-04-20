@@ -6,7 +6,7 @@ EXECS = revindex_sequential revindex_parallel
 all: $(EXECS)
 
 books:
-	wget https://cs.brown.edu/courses/csci1310/2020/assign/labs/assets/lab6-books.tar.gz
+	wget --no-check-certificate https://cs.brown.edu/courses/csci1310/2020/assign/labs/assets/lab6-books.tar.gz
 	tar -xzf lab6-books.tar.gz
 	rm lab6-books.tar.gz
 
